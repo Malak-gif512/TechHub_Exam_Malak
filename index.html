@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Document Title -->
+    <title>TechHub Portal</title>
+    <!-- Link External CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar Section (Using Flexbox) -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <!-- Logo Area -->
+            <div class="logo">TechHub</div>
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Staff Directory Section (Using Flexbox with Wrap) -->
+    <section class="staff-section" id="staff">
+        <div class="container">
+            <h2>OUR TEAM</h2>
+            <div class="staff-directory">
+                <!-- Staff Card 1 -->
+                <div class="staff-card">
+                    <img src="images/staff1.jpeg" alt="Staff Member">
+                    <h3>Mr. Mohamed Ahmed</h3>
+                    <p>ICT Teacher</p>
+                </div>
+                <!-- Staff Card 2 -->
+                <div class="staff-card">
+                    <img src="images/staff1.jpeg" alt="Staff Member">
+                    <h3>Eng. Malak Hussein</h3>
+                    <p>Software Engineer</p>
+                </div>
+                <!-- Staff Card 3 -->
+                <div class="staff-card">
+                    <img src="images/staff1.jpeg" alt="Staff Member">
+                    <h3>Mr. Ali Hassan</h3>
+                    <p>Network Instructor</p>
+                </div>
+                <!-- Staff Card 4 -->
+                <div class="staff-card">
+                    <img src="images/staff1.jpeg" alt="Staff Member">
+                    <h3>Ms. Fatima Omar</h3>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration & Booking Form Section (Using 2-Column CSS Grid) -->
+    <section class="form-section" id="register">
+        <div class="container">
+            <form class="booking-form">
+                <h2>REGISTER & BOOK A SESSION</h2>
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" placeholder="Enter first name">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" placeholder="Enter last name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" placeholder="Enter phone number">
+                </div>
+                <button type="submit" class="btn-submit">Register Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-content">
+            <p class="footer-tagline">TechHub - Empowering Tech Talents.</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p class="copyright">&copy; 2026 TechHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
